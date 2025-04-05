@@ -8,7 +8,38 @@ Welcome to the **Admin Portal**, a Spring Boot-based backend application designe
 ---
 
 ## 📁 Project Structure
-com.admin.adminportal ├── advice # Contains AOP advices for logging or monitoring │ ├── AfterAdvice │ └── BeforeAdvice │ ├── aspect # AOP aspects for cross-cutting concerns like caching │ └── CacheAspect │ ├── cacheUtil # Utility class for cache operations │ └── CacheUtil │ ├── controller # REST API controllers │ └── AdminController │ ├── exception # Custom exceptions │ └── InvalidBrandNameException │ ├── model # Domain models and DTOs │ ├── Customer │ ├── Product │ ├── RequestModel │ ├── ResponseModel │ └── ValidityCheck │ ├── repository # Spring Data JPA repositories │ ├── CustomerRepository │ └── ProductRepository │ └── service # Business logic layer ├── AdminService └── AdminServiceImpl
+com.admin.adminportal 
+├── advice 
+# Contains AOP advices for logging or monitoring │ 
+  ├── AfterAdvice │ 
+  └── BeforeAdvice │ 
+├── aspect 
+# AOP aspects for cross-cutting concerns like caching │ 
+  └── CacheAspect │ 
+├── cacheUtil 
+# Utility class for cache operations │ 
+  └── CacheUtil │ 
+├── controller 
+# REST API controllers │ 
+  └── AdminController │ 
+├── exception
+# Custom exceptions │ 
+  └── InvalidBrandNameException │ 
+├── model 
+# Domain models and DTOs │ 
+  └── Customer │
+  └── Product │ 
+  └── RequestModel │ 
+  └── ResponseModel │ 
+  └── ValidityCheck │ 
+├── repository 
+# Spring Data JPA repositories │ 
+  └── CustomerRepository │ 
+  └── ProductRepository │ 
+├── service 
+  # Business logic layer 
+  └── AdminService 
+  └── AdminServiceImpl
 
 
 ---
@@ -33,5 +64,6 @@ com.admin.adminportal ├── advice # Contains AOP advices for logging or mon
 - Maven
 
 ---
-Built with ❤️ by [Rohit Choudhary]
+Built with ❤️ by 
+# Rohit Choudhary
 
