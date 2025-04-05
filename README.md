@@ -9,38 +9,37 @@ Welcome to the **Admin Portal**, a Spring Boot-based backend application designe
 
 ## 📁 Project Structure
 com.admin.adminportal 
+**Contains AOP advices for logging or monitoring**
 ├── advice 
-# Contains AOP advices for logging or monitoring │ 
-  ├── AfterAdvice │ 
-  └── BeforeAdvice │ 
+  │├── AfterAdvice 
+  │└── BeforeAdvice 
+**AOP aspects for cross-cutting concerns like caching** 
 ├── aspect 
-# AOP aspects for cross-cutting concerns like caching │ 
-  └── CacheAspect │ 
+  │└── CacheAspect 
+**Utility class for cache operations** 
 ├── cacheUtil 
-# Utility class for cache operations │ 
-  └── CacheUtil │ 
+  │└── CacheUtil 
+**REST API controllers**
 ├── controller 
-# REST API controllers │ 
-  └── AdminController │ 
+  │└── AdminController 
+**Custom exceptions** 
 ├── exception
-# Custom exceptions │ 
-  └── InvalidBrandNameException │ 
+  │└── InvalidBrandNameException 
+**Domain models and DTOs** 
 ├── model 
-# Domain models and DTOs │ 
-  └── Customer │
-  └── Product │ 
-  └── RequestModel │ 
-  └── ResponseModel │ 
-  └── ValidityCheck │ 
+  │└── Customer 
+  │└── Product 
+  │└── RequestModel 
+  │└── ResponseModel 
+  │└── ValidityCheck 
+**Spring Data JPA repositories** 
 ├── repository 
-# Spring Data JPA repositories │ 
-  └── CustomerRepository │ 
-  └── ProductRepository │ 
+  │└── CustomerRepository 
+  │└── ProductRepository 
+**Business logic layer**
 ├── service 
-  # Business logic layer 
-  └── AdminService 
-  └── AdminServiceImpl
-
+  │└── AdminService 
+  │└── AdminServiceImpl
 
 ---
 
